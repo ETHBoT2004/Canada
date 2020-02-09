@@ -1,6 +1,6 @@
 body {
   /* background-color: navy; */
-  background: url("media/question-mark-background-1909040_960_720.png") no-repeat center fixed;
+  background: #3a3c40 no-repeat center fixed;
   background-size: cover;
   /* margin-left: 50px; */
   /* margin-bottom: 150px; */
@@ -8,79 +8,45 @@ body {
   margin: 0px;
 }
 
-h1 {
-  color: navy;
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
-  letter-spacing: 3px;
-}
-
-a {
-  text-decoration: none;
-  font-weight: bold;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-p,
-ul,
-input {
-  letter-spacing: 0.5px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h2 {
-  font-family: 'Raleway', sans-serif;
-  font-variant: small-caps;
-
-}
-
-.italic {
-  font-style: italic;
-}
-
-button {
-  background-color: red;
-  color: white;
-  border: 2px solid black;
-  font-size: 20px;
-  padding: 10px;
-  margin-right: 25px;
-  border-radius: 15px;
-  /* width: 300; */
-}
-
-div {
-  background-color: rgba(255, 255, 255, 1);
+div.random, div.panda {
   padding: 20px 150px 100px;
   width: 600px;
   margin: auto;
 }
 
-.black {
-  border: 1px solid black;
+h1 {
+  font-size: 80px;
 }
 
-span {
-  font-variant: small-caps;
-  color: maroon;
-  font-weight: 800px;
-  font-size: 24px;
+h2 {
+  font-size: 60px;
 }
 
-/* * {
-  border: 2px solid green;
-} */
+h3 {
+  font-size: 40px;
+}
 
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Raleway', sans-serif; */
+p {
+  font-size: 20px;
+}
 
-/* .red {
-  color: red;
-} */
+.top {
+  text-align: center;
+  color: #00c8ff  ;
+  /* font-weight: 500px; */
+}
 
-/* h2 {
-  text-decoration: underline red wavy;
-} */
+.random {
+  text-align: center;
+  color: #248eff;
+}
+
+.panda {
+  text-align: center;
+  color: #009bc2;
+}
+
+
+/* padding: 20px 150px 100px;
+width: 600px;
+margin: auto; */
